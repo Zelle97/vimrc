@@ -4,7 +4,7 @@ call plug#begin('$VIM_HOME/plugged')
 
 " Define plugins to load into Vim
 let plugins_enabled=[
-\ 'helpers', 'appearance', 'vcs', 'search', 'editor',
+\ 'helpers', 'appearance', 'vcs', 'search', 'editor', 'rooter',
 \ 'programming', 'integration', 'themes'
 \ ]
 for plugin in plugins_enabled

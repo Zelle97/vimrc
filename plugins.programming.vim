@@ -161,6 +161,7 @@
   Plug 'janko/vim-test'
   " Make test commands execute using other strategy
   let test#strategy='basic'
+  let test#java#runner = 'gradletest'
   " set custom jest executable to support vue using babel
   " let test#javascript#jest#executable = 'npm run --silent test --'
   " Exit after testing with jest

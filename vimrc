@@ -1,6 +1,7 @@
 " .vimrc
 
 let $VIM_HOME=$HOME.'/.vim'
+set shell=/usr/bin/zsh
 
 """ General Configuration
 if filereadable(expand('$VIM_HOME/general.vim'))
